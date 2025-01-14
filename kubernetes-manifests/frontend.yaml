@@ -30,7 +30,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: laly9999/frontend-online-boutique:latest
+          image: laly9999/frontend-online-boutique:nonexistent-tag
           ports:
           - containerPort: 8080
           readinessProbe:
